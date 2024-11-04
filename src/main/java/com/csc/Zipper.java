@@ -1,7 +1,9 @@
 package com.csc;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Zipper {
     public static <T> List<T> zip(List<T> list1, List<T> list2){
@@ -23,5 +25,16 @@ public class Zipper {
             result.add(list2.get(j));
         }
         return result;
+    }
+
+    public static <T> Map<String, T> hashmapify(List<String> keys, List<T> values){
+        if (keys.size()!= values.size()){
+            throw new IllegalArgumentException("Lists must be the same size");
+        }
+        Map<String, T> map = new HashMap<>();
+        for (int i = 0; i < keys.size(); i++){
+            map.put(keys.get(i), values.get(i));
+        }
+        return map;
     }
 }

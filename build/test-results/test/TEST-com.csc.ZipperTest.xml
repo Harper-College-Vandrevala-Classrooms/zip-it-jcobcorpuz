@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.csc.ZipperTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-10-15T01:18:28" hostname="WIN-VE0J3PDRJ34" time="0.031">
+<testsuite name="com.csc.ZipperTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-11-04T03:44:33" hostname="WIN-VE0J3PDRJ34" time="0.039">
   <properties/>
-  <testcase name="testZipWithEmptyLists()" classname="com.csc.ZipperTest" time="0.025"/>
-  <testcase name="testZipWithEqualSizeLists()" classname="com.csc.ZipperTest" time="0.0"/>
-  <testcase name="testZipWithUnequalSizeLists()" classname="com.csc.ZipperTest" time="0.001"/>
+  <testcase name="testZipWithEmptyLists()" classname="com.csc.ZipperTest" time="0.017"/>
+  <testcase name="testHashmapifyWithUnequalSizeLists()" classname="com.csc.ZipperTest" time="0.002"/>
+  <testcase name="testHashmapifyWithEqualSizeLists()" classname="com.csc.ZipperTest" time="0.002"/>
+  <testcase name="testZipWithEqualSizeLists()" classname="com.csc.ZipperTest" time="0.002"/>
+  <testcase name="testZipWithUnequalSizeLists()" classname="com.csc.ZipperTest" time="0.002"/>
   <testcase name="itWorks()" classname="com.csc.ZipperTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
